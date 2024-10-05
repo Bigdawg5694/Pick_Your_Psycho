@@ -36,6 +36,7 @@
   "resources":[
     {"id":{"name":"obj_dialouge","path":"objects/obj_dialouge/obj_dialouge.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"scr_array","path":"scripts/scr_array/scr_array.yy",},},
     {"id":{"name":"scr_dialouge","path":"scripts/scr_dialouge/scr_dialouge.yy",},},
   ],
   "resourceType":"GMProject",
