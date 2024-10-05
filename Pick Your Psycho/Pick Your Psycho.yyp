@@ -34,15 +34,15 @@
   },
   "name":"Pick Your Psycho",
   "resources":[
+    {"id":{"name":"fnt_arial","path":"fonts/fnt_arial/fnt_arial.yy",},},
     {"id":{"name":"obj_dialouge","path":"objects/obj_dialouge/obj_dialouge.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"scr_array","path":"scripts/scr_array/scr_array.yy",},},
+    {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"scr_dialouge","path":"scripts/scr_dialouge/scr_dialouge.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

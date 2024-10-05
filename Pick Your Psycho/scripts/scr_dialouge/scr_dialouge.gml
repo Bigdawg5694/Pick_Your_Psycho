@@ -9,7 +9,7 @@ function scr_dialouge(_string, _speed, _x, _y)
 		maxlength = view_wport[0];
 		text = _string;
 		spd = _speed;
-		font = fnt_pixel;
+		font = fnt_arial;
 		
 		text_length = string_length(text);
 		font_size = font_get_size(font);
