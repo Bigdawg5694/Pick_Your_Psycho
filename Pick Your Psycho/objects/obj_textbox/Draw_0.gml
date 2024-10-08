@@ -1,6 +1,6 @@
 accept_key = keyboard_check_pressed(vk_space);
 
-textbox_x = camera_get_view_x( view_camera[0] );
+textbox_x = camera_get_view_x( view_camera[0] ) + 50;
 textbox_y = camera_get_view_y( view_camera[0] ) + 500;
 
 text_x_offset[0] = 0;
@@ -164,7 +164,7 @@ if draw_char == text_length[page] && page = page_number - 1
 			}
 		
 		//the option text
-		draw_text(_txtb_x + 16 + _op_bord, _txtb_y - _op_space*option_number + _op_space*op + 4, option[op]);
+		draw_text(_txtb_x + 16 + _op_bord, _txtb_y - _op_space*option_number + _op_space*op + 2, option[op]);
 		}
 	}
 

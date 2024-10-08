@@ -76,7 +76,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_dialogue_test","path":"rooms/rm_dialogue_test/rm_dialogue_test.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room_Instructions","path":"rooms/Room_Instructions/Room_Instructions.yy",},},
     {"roomId":{"name":"rm_selection","path":"rooms/rm_selection/rm_selection.yy",},},
@@ -85,6 +84,7 @@
     {"roomId":{"name":"rm_cafe","path":"rooms/rm_cafe/rm_cafe.yy",},},
     {"roomId":{"name":"rm_outside","path":"rooms/rm_outside/rm_outside.yy",},},
     {"roomId":{"name":"rm_room","path":"rooms/rm_room/rm_room.yy",},},
+    {"roomId":{"name":"rm_dialogue_test","path":"rooms/rm_dialogue_test/rm_dialogue_test.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
