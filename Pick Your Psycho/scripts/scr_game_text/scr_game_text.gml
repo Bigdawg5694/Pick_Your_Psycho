@@ -59,10 +59,6 @@ switch(_text_id) {
 		case "scene_5 - insult":
 			scr_text("Mental: Really now. If that’s how you feel, I’ll just stick to ghouls in my backyard. Thanks for the offer though.");
 			break;
-		
-	case "scene_6":
-		scr_text("Main Character: I never would have guessed my day would go like this but hey, life is like a sandwich. Defeating one only makes it tastier. I think that’s the saying I don’t know.");
-		break;
 }
 
 }

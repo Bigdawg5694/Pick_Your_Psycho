@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Asylum_Hallway_BG_Spr",
   "bboxMode":0,
-  "bbox_bottom":340,
+  "bbox_bottom":767,
   "bbox_left":0,
-  "bbox_right":473,
+  "bbox_right":1067,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":341,
+  "height":768,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"2cc0fe92-bf8c-400a-8293-82b866e50644","blendMode":0,"displayName":"default","isLocked":false,"name":"2cc0fe92-bf8c-400a-8293-82b866e50644","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":474,
+  "width":1068,
 }

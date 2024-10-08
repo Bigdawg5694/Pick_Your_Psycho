@@ -3,6 +3,8 @@ accept_key = keyboard_check_pressed(vk_space);
 textbox_x = camera_get_view_x( view_camera[0] );
 textbox_y = camera_get_view_y( view_camera[0] ) + 500;
 
+text_x_offset[0] = 0;
+
 
 //setup
 if setup == false
@@ -114,7 +116,8 @@ if accept_key
 		else
 			{
 			//link text for options
-			if option_number > 0 {
+			if option_number > 0 
+				{
 				create_textbox(option_link_id[option_pos]);
 				}
 			instance_destroy();

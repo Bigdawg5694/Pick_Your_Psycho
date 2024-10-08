@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Asylum_Entrance_BG_Spr",
   "bboxMode":0,
-  "bbox_bottom":1364,
+  "bbox_bottom":767,
   "bbox_left":0,
-  "bbox_right":2047,
+  "bbox_right":1151,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":1365,
+  "height":768,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"de34fd14-3c71-438f-afec-5acf38f50213","blendMode":0,"displayName":"default","isLocked":false,"name":"de34fd14-3c71-438f-afec-5acf38f50213","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":2048,
+  "width":1152,
 }
