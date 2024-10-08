@@ -13,7 +13,6 @@ if setup == false
 	draw_set_halign(fa_left);
 	
 	//loop through the pages
-	page_number = array_length(text);
 	for(var p = 0; p < page_number; p++)
 		{
 		
@@ -65,15 +64,30 @@ if accept_key
 		}
 	}
 
-
 //draw the textbox
+var _txtb_x = textbox_x + text_x_offset[page];
+var _txtb_y = textbox_y;
 txtb_img += txtb_img_spd;
 txtb_spr_w = sprite_get_width(txtb_spr);
 txtb_spr_h = sprite_get_height(txtb_spr);
 //back of the textbox
-draw_sprite_ext(txtb_spr, txtb_img, textbox_x + text_x_offset[page], textbox_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 1);
+draw_sprite_ext(txtb_spr, txtb_img, _txtb_x, _txtb_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 1);
 
+//options
+if draw_char == text_length[page] && page = page_number - 1
+	{
+	
+	//draw the options
+	var _op_space = 15;
+	var _op_bord = 4;
+	for (var op = 0; op < option_number; op++;)
+		{
+		//the option box
+		var _o_w = string_width(option[op]) + _op_bord*2;
+		draw_sprite_ext(txtb_spr, txtb_img, _txtb_x + 16, _txtb_y - _op_space*option_number + _op_space*op, textbox_width/txtb_spr_w, textbox_height/textb_spr_h, 0, c_white, 1);
+		}
+	}
 
 //draw the text
 var _drawtext = string_copy(text[page], 1, draw_char);
-draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y + border, _drawtext, line_sep, line_width);
+draw_text_ext(_txtb_x + border, _txtb_y + border, _drawtext, line_sep, line_width);
