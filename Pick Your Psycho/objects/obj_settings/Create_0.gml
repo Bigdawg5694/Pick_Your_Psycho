@@ -1,1 +1,1 @@
-global.font_main = fnt_pixel;
+global.font_main = fnt_arial;
